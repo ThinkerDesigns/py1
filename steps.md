@@ -16,7 +16,11 @@
 ## Create Repo using curl
 > [curl-CLI for URLs](https://curl.haxx.se/)
 
+~~~~
+
 curl -u 'DSBUSA' https://api.github.com/user/repos -d '{"name":"py1"}'
+
+~~~~
 
 ## Initialize from CLI
 
