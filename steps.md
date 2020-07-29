@@ -58,15 +58,15 @@ git push
 ~~~~
 
 ## Add a folder
-* Create __folder1__
-* Create file(s) inside __folder1__
-* Checkin __folder1__ along with files.
+* Create __newfolder__
+* Create file(s) inside __newfolder__
+* Checkin __newfolder__ along with files.
 
 ~~~~
-mkdir folder1
-echo "Folder 1 README" > folder1/README.md
-git add folder1/README.md
-git commit -m "Added folder1"
+mkdir newfolder
+echo "Folder 1 README" > newfolder/README.md
+git add newfolder/README.md
+git commit -m "Added newfolder"
 git push
 ~~~~
 
