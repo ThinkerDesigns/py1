@@ -59,8 +59,8 @@ git push
 
 ## Notes
 * Git configuration information is stored in ${HOME}/.gitconfig
-  * Global configuration can be manipulated using __ git config --global __user.name DSBUSA__
-  * Change __name__ in __gitconfig__  using git config --global 
+  * Global configuration can be manipulated using __ git config --global user.name DSBUSA__
+  * Change __name__ in __gitconfig__  using __git config --global__ 
 * Cache credentials using __git config --global credential.helper cache__
 * Chain commands to say checkin steps.md over and over after modifications
   * __ git add steps.md ; git commit -m "Updated steps"; git push __
