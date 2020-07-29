@@ -56,3 +56,10 @@ git push
 # Follow proompts to enter user and password info
 
 ~~~~
+
+## Notes
+* Git configuration information is in ${HOME}/.gitconfig
+* Cache credentials using __git config --global credential.helper cache__
+* Chain commands to say checkin steps.md over and over after modifications
+  * __ git add steps.md ; git commit -m "Updated steps"; git push __
+  
