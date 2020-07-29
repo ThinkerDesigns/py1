@@ -2,7 +2,7 @@
 
 >Creating a new repository from commandline 
 
-## Tasks
+## CLI Tasks
 * Step 1
   * Create a github repository named __py1__ using https
   * Initialize and add contents
