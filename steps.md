@@ -57,6 +57,19 @@ git push
 
 ~~~~
 
+## Add a folder
+* Create __folder1__
+* Create file(s) inside __folder1__
+* Checkin __folder1__ along with files.
+
+~~~~
+mkdir folder1
+echo "Folder 1 README" > folder1/README.md
+git add folder1/README.md
+git commit -m "Added folder1"
+git push
+~~~~
+
 ## Notes
 * Git configuration information is stored in __${HOME}/.gitconfig__
   * Global configuration can be manipulated using __git config --global user.name DSBUSA__
