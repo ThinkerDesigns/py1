@@ -23,3 +23,22 @@ git remote add origin https://github.com/DSBUSA/py1.git
 git push -u origin master
 
 ~~~~
+
+## Further Edits
+
+~~~~
+
+# Create new file
+echo "# Hello World" > hello.md
+echo "## This is nice" >> hello.md
+echo "* Adding line 1 " >> hello.md
+echo "* Adding line 2 " >> hello.md
+
+# Add this to the list of commits
+git add hello.md
+git commit -m "Added Hello World file hello.md"
+git push
+
+# Follow proompts to enter user and password info
+
+~~~~
