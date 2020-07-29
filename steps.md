@@ -1,11 +1,19 @@
-# Creating a new repository from commandline
+# Github experience from client machine CLI
 
-## Task
-* Create a github repository named __py1__ using https
-* Initialize and add contents
+>Creating a new repository from commandline 
+
+## Tasks
+* Step 1
+  * Create a github repository named __py1__ using https
+  * Initialize and add contents
+* Step 2
+  * Create further files __using echo__
+  * Add added/modified files using __git add__
+  * Add comment using __git commit -m__
+  * Push  files to github using __git push__
 
 
-## Create REpo
+## Create Repo using curl
 curl -u 'DSBUSA' https://api.github.com/user/repos -d '{"name":"py1"}'
 
 ## Initialize from CLI
