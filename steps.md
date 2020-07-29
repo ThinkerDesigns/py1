@@ -78,6 +78,8 @@ git push
   eval $(ssh-agent -s)
   ssh-keygen -t rsa -b 4096 -C "DSBUSA@github.com"
   ssh-add ~/.ssh/id_rsa
+
+# Show your public key in terminal window
   cat ~/.ssh/id_rsa.pub
 
 
