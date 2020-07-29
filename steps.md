@@ -14,7 +14,7 @@
 
 
 ## Create Repo using curl
-> [curl-CLI for URLs](https://curl.haxx.se/)
+> [curl](https://curl.haxx.se/) - Command line tools and libraries for URLs
 
 ~~~~
 
