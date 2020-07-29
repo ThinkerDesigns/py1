@@ -82,9 +82,7 @@ git push
 
 
 # Put keys on the server
-
   curl -u DSBUSA:PASSWORD https://api.github.com/user/keys -d '{"title":"KEY_NAME", "key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDaX6aUV9Pu7MzYjKwamWHJXKtIfXUnaXomwPYNoAedGvxNY9r20VPRHXz1RP8tKP6qB3P+lywlsSILdJ5T0SCc9ESC7fhTJeo/DqlYunvTbRpZrmWeZGJfJ4rZxuDXSdix+3ZxuilD6xl+uY+3QAfZeoeFDpsxt3bEhMvYzGQ6WsbP4oF+2pPXpmSGY4XmN8GdB6hsQKIg/26/paSdBTi6PgBy+BLXrXTHjEjIIawUaCmCXKTk2MJVkyPesEFj8kp8aLIXEERoll8d1aztuLf4SYdtoSSdfaIDo0GE+jJE/bdMqT/BKLKFifIOBY1SB+OCHyOLQQvGKwgZ5775wNGKm6rCCSBy3JMges8w0SXag+TEkc3eOqOYuVx0RJGljp1r4yU7kedK4OxP70vI8PquAKP9BcLdGQETrFUtCHtTXmzjEB1QbO5WlEh5By3W3SAbB0mqyh5TQvaqnOLqkyq28DP7Od/4JR90gTxkXRKCHAaCdTwGekAIni1bgscJ/GhESe2N6QF6z1GjLSFeJdH6L4cl56JLsHHDKxnHxIxDr0w10XFExQ87V5VnZ6vnq65UV1RoAXHKjEv99aAQEL5m8sGZLU3IiagbqEBSHGV80X0G3feTjsJ0BtxZxtFtsjGdSU/h7FcQElJJaGZ/LtGfr4jn/TvY3vVpYzW+U4eylw== DSBUSA@github.com"}'
-
   git push -u origin master
 
 # Clone using SSH
