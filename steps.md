@@ -1,7 +1,12 @@
 # Creating a new repository from commandline
 
+## Task
+* Create a github repository named __py1__ using https
+* Initialize and add contents
+
+
 ## Create REpo
-curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}'
+curl -u 'DSBUSA' https://api.github.com/user/repos -d '{"name":"py1"}'
 
 ## Initialize from CLI
 
